@@ -1,4 +1,4 @@
-public class Main {
+public class LambdaExpressionExample {
 
     public  static void m1(){
         System.out.println("hello Raj");
@@ -19,7 +19,7 @@ public class Main {
 
         m1();
         m2(2,3);
-        Main M = new Main() ;
+        LambdaExpressionExample M = new LambdaExpressionExample() ;
         int result = M.square(5);
         System.out.println(result);
 
