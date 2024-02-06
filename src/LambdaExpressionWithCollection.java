@@ -20,6 +20,7 @@ class MyComparator implements Comparator<Integer>{
 
 public class LambdaExpressionWithCollection {
     public static void main(String[] args) {
+        // Normal TreeSet collection implementation
         TreeSet<Integer> num2 = new TreeSet<>();
         num2.add(10);
         num2.add(0);
@@ -28,6 +29,7 @@ public class LambdaExpressionWithCollection {
         num2.add(20);
         System.out.println(num2);
 
+        // Comparator Interface Using
         TreeSet<Integer> num1 = new TreeSet<>(new MyComparator());
         num1.add(10);
         num1.add(0);
@@ -36,6 +38,7 @@ public class LambdaExpressionWithCollection {
         num1.add(20);
         System.out.println(num1);
 
+        //Lambada Expression Using
         TreeSet<Integer> num = new TreeSet<>((I1,I2)->(I1<I2)?1:(I1>I2)?-1:0);
         num.add(10);
         num.add(0);
