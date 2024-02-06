@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b05d146-61dd-4bdc-9670-287d76f2724f" name="Changes" comment="Lambda Expression">
-      <change afterPath="$PROJECT_DIR$/src/AnonymousInnerClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Innerclass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LambdaExpressionWithCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LengthOfString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LambdaExpressionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LambdaExpressionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LambdaExpressionWithCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LambdaExpressionWithCollection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +37,7 @@
     "Application.AnonymousInnerClass.executor": "Run",
     "Application.Innerclass.executor": "Run",
     "Application.LambdaExpressionExample.executor": "Run",
+    "Application.LambdaExpressionWithCollection.executor": "Run",
     "Application.LengthOfString.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -109,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707142233473</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Lambda Expression">
+      <option name="closed" value="true" />
+      <created>1707229403697</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707229403697</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
